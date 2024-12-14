@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(data:image/jpeg;base64,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);
+}
+.card-profile {
+    width: 90%; 
+    max-width: 400px;
+    min-width: 300px;
+    background-color: whitesmoke; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 2rem; 
+  }
+  
+  .image {
+    width: 50%;
+    max-width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    border: 2px solid grey;
+    overflow: hidden; 
+  }
+  
+  .image-profile {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .text-data {
+    text-align: center; 
+    margin-top: 10px; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  .name {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #000; 
+  }
+  
+  .job {
+    font-size: 1rem; 
+    font-style: italic; 
+    color: #ff0606;
+    margin-top: 5px; 
+  }
+  .name:hover {
+    color: #007bff; 
+    cursor: pointer;
+  }
+  .media-buttons {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px; 
+    border-radius: 50%;
+   
+  }
+  
+  .link {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px;
+    background-color: #d8c1c1; 
+    border-radius: 50%; 
+    color: #333; 
+    font-size: 20px; 
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+  }
+  
+  .link:hover {
+    background-color: #007bff; 
+    color: #fff; 
+    transform: scale(1.1); 
+  }
+  
+  
+  
